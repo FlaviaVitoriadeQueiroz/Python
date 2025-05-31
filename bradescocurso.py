@@ -17,19 +17,36 @@ while v <= 18:
     v+= 1
 #é necessário guradrar o valor de v, senão ele vai ficar imprimindo 9
 
+#break = interrompe o loop quando a condição for verdadeira. Quando quero parar o loop
+for n in range(1, 10):
+    if n == 5:
+        break  
+    print(n)
+
+#continue = pula a iteração dada na condição e continua o loop. Quando quero ignorar só uma volta do loop
+for n in range(1, 6):
+    if n == 3:
+        continue  
+    print(n)
+
+#pass= quando preciso de um bloco de código, mas ainda não o escrevi. 
+def minha_funcao():
+    pass
+
 def vi():
     return 'da Vi'
 vi
 
-open('open', 'w')
-open.write('Bradesco Curso de Python\n') #***.write() vai escrever no arquivo
-open.close()
+#sem declarar variável, o arquivo fica aberto
+open('arquivodeteste.csv', 'w').write('Curso de Python\n')
 
-arquivo = open('open', 'w')
+#declarando variável
+arquivo = open('arquivodeteste.csv', 'a')
 arquivo.write('Curso de Python do Bradesco\n')
 arquivo.close()
 
-with open('open', 'w') as arquivo:
+#com with, não é necessário fechar o arquivo manualmente
+with open('arquivodeteste.csv', 'a') as arquivo:
     arquivo.write('O melhor curso de python\n')
 
 #r abre arquivos somente para leitura
