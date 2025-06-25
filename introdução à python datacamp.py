@@ -45,4 +45,26 @@ frase = 'Python é uma linguagem de programação'
 print(frase.replace('Python', 'SQL'))
 
 import numpy as np
+lista = [23, 67, 34, 89, 34, 23, 12]
+np_lista = np.array(lista)
+print(np_lista)
 
+l = [2, 3, 5, 8, 4, 8, 8]
+np_l = np.array(l)
+print(np_l)
+
+soma = np_lista + np_l #soma de matrizes
+print(soma)
+
+print(soma > 40) #retorna uma matriz booleana, onde cada elemento é True se a condição for satisfeita e False caso contrário
+print(soma[soma > 40])
+print(np_lista[np_lista > 40]) #retorna os elementos que satisfazem a condição
+
+#para saber o index em uma matriz:
+print(np_lista[3]) #retorna o elemento na quarta posição
+
+print(soma.shape) #retorna o formato da matriz
+
+print(np_lista.mean()) #retorna a média dos elementos da matriz
+print(np_lista.mdian()) #retorna a mediana dos elementos da matriz
+print(np_lista.std()) #retorna o desvio padrão dos elementos da matriz
