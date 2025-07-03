@@ -8,9 +8,9 @@ Os conteúdos abordam desde os fundamentos da linguagem até aplicações mais a
 
 Os arquivos deste repositório foram produzidos a partir de exercícios e projetos realizados nos seguintes cursos:
 
-- [ ] Curso de Introdução à Python – Fundação Bradesco
-- [ ] Introdução à Python, Python Intermédiario - DataCamp
-- [ ] Cursos gratuitos e plataformas diversas (YouTube, Tiktok etc.)
+-  Curso de Introdução à Python – Fundação Bradesco
+-  Introdução à Python, Python Intermédiario - DataCamp
+-  Cursos gratuitos e plataformas diversas (YouTube, Tiktok etc.)
 
 ## 🧠 Objetivo
 
