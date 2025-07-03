@@ -25,3 +25,9 @@ Este repositório tem como objetivo:
 - Python 3.x
 - Jupyter Notebook (em alguns casos)
 - Bibliotecas: pandas, numpy, matplotlib, random, entre outras
+
+## ✨ Contato
+
+Desenvolvido por Flávia Vitória de Queiroz
+Email: flaviavitoriaqueiroz@gmail.com
+
