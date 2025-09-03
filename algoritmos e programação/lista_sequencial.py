@@ -10,6 +10,20 @@ class ListaSquencial:
             self.tamanho += 1 #Depois de inserir o elemento, aumenta o contador tamanho, já que agora há mais um elemento na lista
         else:
             print("Lista cheia")
+
+    def inserir_em(self, indice, elemento):
+        if self.tamanho >= self.capacidade:
+            print("Lista cheia")
+            return
+        if indice < 0 or indice > self.tamanho:
+            print("Índice inválido")
+            return
+
+        for i in range(self.tamanho, indice, -1):
+            self.dados[i] = self.dados[i - 1]
+
+        self.dados[indice] = elemento
+        self.tamanho += 1
     
     def remover (self, indice):
         if 0 <= indice < self.tamanho: # Tem que ser menor que self.tamanho (ou seja, dentro da faixa de elementos válidos)
@@ -31,15 +45,3 @@ class ListaSquencial:
             print(self.dados[i], end ="|")
         print()
 
-#Usando
-lista = ListaSquencial(18) #criando uma lista com capacidade para 18 elementos
-lista.inserir(3)
-lista.inserir(6)
-lista.inserir(9)
-lista.inserir(12)
-lista.inserir(15)
-lista.inserir(18)
-lista.imprimir()
-print("indice do 18:", lista.buscar(18))
-lista.remover(3) #remove oq esta no indice 3
-lista.imprimir()

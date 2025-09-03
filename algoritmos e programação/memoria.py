@@ -19,13 +19,13 @@ class Pessoa:
     def __init__(self, nome): #metofo construtor
         self.nome = "Maria"
 
-a1= Pessoa("Rafaela") #chamando o construtor e passando o nome de reafaela
+a1= Pessoa("Rafaela") #chamando o construtor e passando o nome de rafaela
 a2 = a1 #e uma referencia e n uma variavel simples
 a2.nome = "Vitoria"
 
 print(f"a1 = {a1.nome}, a2 = {a2.nome}") #ambos teram o mesmo output
 
 #identificadores
-print(f"id(v) = {id(v)}, id(y) = {id(y)}, id(v) = {id(v)}")
-print(f"id(arr1) = {id(arr1)}, id(arr2) = {id(arr2)}, id(arr1) = {id(arr1)}")
-print(f"id(a1) = {id(a1)}, id(a2) = {id(a2)}, id(a2) = {id(a2)}")
+print(f"id(v) = {id(v)}, id(y) = {id(y)}, id(v) = {id(v)}") #valores diferentes para v e y
+print(f"id(arr1) = {id(arr1)}, id(arr2) = {id(arr2)}, id(arr1) = {id(arr1)}") #valores todos iguais
+print(f"id(a1) = {id(a1)}, id(a2) = {id(a2)}, id(a2) = {id(a2)}") #valores todos iguais
