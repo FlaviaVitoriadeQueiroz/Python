@@ -16,10 +16,14 @@ print("Lista original:", lista2)
 bubble_sort(lista2)
 print("Lista ordenada:", lista2)
 
-'''E um algoritmo simples
+'''comeca da esquerda para a direita, o elemento atual com os proximos
+
+E um algoritmo simples
 um dos metodos mais classicos
 
 tempo de execucao maior 0(n^2), por causa dos dois loops aninhados
 pouco eficiente em listas grandes
 
-e um elemento estavel, ou seja mantem a ordem dos elementos iguais'''
+e um elemento estavel, ou seja mantem a ordem dos elementos iguais
+
+considera o ultimo elemento ordenado'''
