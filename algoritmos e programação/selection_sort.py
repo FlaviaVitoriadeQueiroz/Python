@@ -2,7 +2,7 @@
 
 considera o primeiro elemento como o menor, ou seja, ordenado
 
-tem um numero reduzido de trocas, porem um numero elevado de comparacoes
+tem um numero reduzido de trocas, porem um numero elevado de comparacoes, ou sej, identifica o valor mais rapido
 boa acao para cenarios onde a troca de elementos e mais custosa que a comparacao (disco rigido, memoria flash)
 
 pouco eficiente em listas grandes
