@@ -18,3 +18,27 @@ populacao = [2.5, 6.8, 8, 8.2] #dados da ONU
 
 plt.scatter(ano, populacao) #grafico de pontos
 plt.show()
+
+#exercicio 1
+print(years)
+print(pop)
+
+import matplotlib.pyplot as plt
+
+plt.plot(years, pop)
+plt.show()
+
+#exercicio 2
+'''print(gdp_cap[-1])
+print(life_exp[-1])
+
+import matplotlib.pyplot as plt 
+plt.plot(gdp_cap, life_exp)
+plt.show()'''
+
+#exercicio 3
+'''plt.scatter(gdp_cap, life_exp) #gráfico de dispersão
+plt.xscale('log') #muda o eixo X para logarítmico
+plt.show()'''
+
+#exercicio 4
