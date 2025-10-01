@@ -71,15 +71,16 @@ cars1.index = row_labels
 print(cars1)
 
 #exercicio 3
-import pandas as pd
+'''import pandas as pd
 
 cars2 = pd.read_csv("cars.csv")
 
-print(cars2)
+print(cars2)'''
 
 #exercicio 4
-import pandas as pd
+'''import pandas as pd
 
 cars3 = pd.read_csv('cars.csv', index_col=0)
 
-print(cars3)
+print(cars3)'''
+
