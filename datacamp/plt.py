@@ -23,8 +23,6 @@ plt.show()
 print(years)
 print(pop)
 
-import matplotlib.pyplot as plt
-
 plt.plot(years, pop)
 plt.show()
 
@@ -38,7 +36,8 @@ plt.show()'''
 
 #exercicio 3
 '''plt.scatter(gdp_cap, life_exp) #gráfico de dispersão
-plt.xscale('log') #muda o eixo X para logarítmico
+plt.xscale('log') #muda o eixo X para logarítmico, Por padrão, o eixo X cresce em intervalos iguais: 1, 2, 3... (escala linear).Quando você usa plt.xscale('log'),
+ele passa a crescer em potências de 10 (ou outra base logarítmica): 1, 10, 100, 1000...
 plt.show()'''
 
 #exercicio 4

@@ -66,5 +66,4 @@ print(np_lista[3]) #retorna o elemento na quarta posição
 print(soma.shape) #retorna o formato da matriz
 
 print(np_lista.mean()) #retorna a média dos elementos da matriz
-print(np_lista.mdian()) #retorna a mediana dos elementos da matriz
 print(np_lista.std()) #retorna o desvio padrão dos elementos da matriz

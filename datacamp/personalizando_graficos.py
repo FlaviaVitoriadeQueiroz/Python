@@ -18,6 +18,7 @@ plt.yticks([0, 2, 4, 6, 8, 10], #define os valores do eixo y
 plt.show()
 
 #exercicio 1
+#a lista do exercicio e a desse script sao diferentes
 import numpy as np
 
 np_pop = np.array(ano)
@@ -32,3 +33,31 @@ plt.title('World Development in 2007')
 plt.xticks([1000, 10000, 100000],['1k', '10k', '100k'])
 
 plt.show()
+
+#exercicio 2
+'''plt.scatter(x = gdp_cap, y = life_exp, s = np.array(pop) * 2, c = col, alpha = 0.8) 
+#O valor de alfa pode ser definido de 0 a 1, sendo que 0 é totalmente transparente e 1 é completamente opaco.
+
+plt.xscale('log') 
+plt.xlabel('GDP per Capita [in USD]')
+plt.ylabel('Life Expectancy [in years]')
+plt.title('World Development in 2007')
+plt.xticks([1000,10000,100000], ['1k','10k','100k'])
+
+plt.show()'''
+
+#exercicio 3
+'''plt.scatter(x = gdp_cap, y = life_exp, s = np.array(pop) * 2, c = col, alpha = 0.8)
+
+plt.xscale('log')
+#dando nome aos eixos e titulo
+plt.xlabel('GDP per Capita [in USD]')
+plt.ylabel('Life Expectancy [in years]')
+plt.title('World Development in 2007')
+plt.xticks([1000,10000,100000], ['1k','10k','100k'])
+
+plt.text(1550, 71, 'India') #adiciona texto no grafico, primeiro valor e eixo x, segundo valor eixo y
+plt.text(5700, 80, 'China') #adiciona texto no grafico, primeiro valor e eixo x, segundo valor eixo y
+plt.grid(True) #adiciona uma grade ao grafico
+
+plt.show()'''

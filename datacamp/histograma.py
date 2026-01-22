@@ -8,14 +8,10 @@ plt.show()
 #exercico 1
 life_exp = [29.9, 33.1, 43.8, 45.7, 51.3, 52.4, 53.6, 55.2, 55.9, 57.2, 58.0, 59.5, 60.0, 60.6]
 plt.hist(life_exp, bins=5)
-
-# Show and clean up plot
 plt.show()
-plt.clf()
+plt.clf()  #Ele limpa o conteúdo da figura atual (o gráfico em construção), mas mantém a janela/figura aberta.
+           #Isso é útil quando você quer desenhar um novo gráfico do zero, sem que o anterior continue aparecendo.
 
-# Build histogram with 20 bins
 plt.hist(life_exp, bins=20)
-
-# Show and clean up again
 plt.show()
 plt.clf()

@@ -38,5 +38,46 @@ for lab, row in brics1.iterrows():
 print(brics1)
 
 #outra maneira muito mais eficiente de se fazer isso:
-brics1['name_length'] = brics1['country'].apply(len)
+brics1['name_length'] = brics1['country'].apply(len) #aplica a funcao len a cada elemento da coluna country
+#e mais eficiente pq nao precisa iterar linha por linha e atribuir o valor
 print(brics1)
+
+#exercicio 3
+# Import cars data
+'''import pandas as pd
+cars = pd.read_csv('cars.csv', index_col = 0)
+
+# Iterate over rows of cars
+for i, j in cars.iterrows():
+    print(i)
+    print(j)'''
+
+#exercicio 4
+# Import cars data
+'''import pandas as pd
+cars = pd.read_csv('cars.csv', index_col = 0)
+
+# Adapt for loop
+for lab, row in cars.iterrows():
+    print(lab + ': ' + str(row['cars_per_cap'])) #str() converte numero em texto'''
+
+#exercicio 5
+# Import cars data
+'''import pandas as pd
+cars = pd.read_csv('cars.csv', index_col = 0)
+
+# Code for loop that adds COUNTRY column
+for lab, row in cars.iterrows():
+    cars.loc[lab, 'COUNTRY'] = row['country'].upper()
+
+
+# Print cars
+print(cars)'''
+
+#exercicio 6
+'''# Import cars data
+import pandas as pd
+cars = pd.read_csv('cars.csv', index_col = 0)
+
+# Use .apply(str.upper)
+cars["COUNTRY"] = cars['country'].apply(str.upper)'''

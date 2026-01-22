@@ -7,7 +7,7 @@ dict = {
 }
 
 import pandas as pd
-brics = pd.DataFrame(dict)
+brics = pd.DataFrame(dict) #converte o dicionario em um DataFrame
 print(brics)
 
 brics.index = ['BR', 'RU', 'IN', 'CH', 'SA']
