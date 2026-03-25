@@ -1,5 +1,5 @@
-📁 Este repositório reúne códigos desenvolvidos ao longo dos meus estudos extracurriculares.
+📁 Esta pasta reúne códigos desenvolvidos ao longo da disciplina de Algoritmos e Programação.
 
-Aqui estão projetos, exercícios e experimentos práticos que demonstram minha evolução técnica, capacidade de resolução de problemas e aplicação de conceitos em áreas como programação, banco de dados e engenharia de dados.
+Aqui estão exercícios e práticas que refletem minha evolução no aprendizado de lógica de programação, estruturação de algoritmos e resolução de problemas computacionais.
 
-O objetivo é consolidar conhecimento e construir um portfólio consistente, com foco em aprendizado contínuo e boas práticas.
+O objetivo é consolidar conhecimento e fortalecer uma base sólida em programação, com foco em aprendizado contínuo e boas práticas.
