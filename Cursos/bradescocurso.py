@@ -2,7 +2,7 @@
 # for, while, break, continue, pass
 #para, enquanto, interromper, continuar, passar]
 
-#for = sabemos quantas vezes vai reprtir
+#for = sabemos quantas vezes vai reprtir 
 for n in range(18):
     print(n)
 #vai executar até que n seja 17
