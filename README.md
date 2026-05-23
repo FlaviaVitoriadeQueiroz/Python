@@ -1,33 +1,121 @@
-# Repositório de Estudos em Python
+# Python Studies & Projects 
 
-Bem-vindo ao meu repositório de estudos!
-Aqui você encontrará diversos códigos e anotações dos cursos que venho realizando para aprimorar minhas habilidades em *Python*.
-Os conteúdos abordam desde os fundamentos da linguagem até aplicações mais avançadas, como manipulação de dados, automação e análise de dados.
+Repositório criado para armazenar exercícios, projetos, estudos e experimentos desenvolvidos em Python durante minha graduação e trajetória na área de tecnologia.
 
-## 🎓 Cursos Utilizados
+Aqui você encontrará conteúdos relacionados a:
 
-Os arquivos deste repositório foram produzidos a partir de exercícios e projetos realizados nos seguintes cursos:
+- lógica de programação
+- análise de dados
+- machine learning
+- estatística
+- banco de dados
+- automação
+- visualização de dados
+- algoritmos
 
--  Curso de Introdução à Python – Fundação Bradesco
--  Introdução à Python, Python Intermédiario - DataCamp
--  Cursos gratuitos e plataformas diversas (YouTube, Tiktok etc.)
+---
 
-## 🧠 Objetivo
+# Sobre mim
 
-Este repositório tem como objetivo:
+Meu nome é Flávia Vitória de Queiroz e atualmente estudo tecnologia com foco em:
 
-- Consolidar meu aprendizado contínuo em Python
-- Servir como referência futura para projetos pessoais e profissionais
-- Compartilhar meu progresso com a comunidade
+- Data Science
+- Inteligência Artificial
+- Banco de Dados
+- Python
+- Machine Learning
 
-## 💻 Tecnologias Utilizadas
+Este repositório representa minha evolução prática através de exercícios, aplicações e projetos desenvolvidos ao longo dos estudos.
 
-- Python 3.x
-- Jupyter Notebook (em alguns casos)
-- Bibliotecas: pandas, numpy, matplotlib, random, entre outras
+---
 
-## ✨ Contato
+# Tecnologias Utilizadas
 
-Desenvolvido por Flávia Vitória de Queiroz
-Email: flaviavitoriaqueiroz@gmail.com
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-Learn
+- SQL
+- Jupyter Notebook
+- Google Colab
 
+---
+
+# Conteúdo do Repositório
+
+O repositório contém diferentes tipos de materiais, incluindo:
+
+## Análise de Dados
+Projetos envolvendo:
+- tratamento de dados
+- visualização
+- análise exploratória
+- estatística
+
+## Machine Learning
+Implementações de algoritmos como:
+- KNN
+- regressão
+- classificação
+- validação cruzada
+
+## Exercícios e Estudos
+Resoluções práticas para aprendizado de:
+- estruturas de repetição
+- funções
+- listas
+- dicionários
+- orientação a objetos
+
+## Banco de Dados
+Exercícios e integrações utilizando SQL e Python.
+
+---
+
+# Objetivo
+
+Este repositório foi criado para:
+
+- documentar minha evolução técnica
+- praticar programação
+- desenvolver projetos acadêmicos
+- construir um portfólio profissional
+
+---
+
+# Como Executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/FlaviaVitoriadeQueiroz/Python.git
+```
+
+Entre na pasta:
+
+```bash
+cd Python
+```
+
+Instale as dependências necessárias:
+
+```bash
+pip install pandas numpy matplotlib scikit-learn
+```
+
+Execute os arquivos `.py` ou notebooks `.ipynb`.
+
+---
+
+# Contato
+
+## LinkedIn
+www.linkedin.com/in/flavia-vitoria-de-queiroz
+
+## GitHub
+https://github.com/FlaviaVitoriadeQueiroz
+
+---
+
+⭐ Repositório em constante atualização.
