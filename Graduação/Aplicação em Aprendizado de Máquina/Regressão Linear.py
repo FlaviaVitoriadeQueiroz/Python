@@ -76,7 +76,7 @@ sns.scatterplot(
 plt.title('Shucked weight vs Height')
 plt.show()
 
-# histograma da distribuição dos anêis (Rings) 
+# Histograma da distribuição dos anêis (Rings) 
 sns.histplot(
     data=abalone,
     x='Length',
