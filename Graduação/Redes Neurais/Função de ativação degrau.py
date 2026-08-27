@@ -27,3 +27,6 @@ print('Saída da função de ativação degrau:\n', degrauFA(z))
 # Juntando TUDO
 h= degrauFA(x @ w.T) # é a primeira camada de uma rede neural, onde a entrada x é multiplicada pelos pesos w e, em seguida, a função de ativação degrau é aplicada ao resultado z para determinar a saída h do neurônio.
 print('Saída da função de ativação degrau (h):\n', h)
+
+'''para a segunda camada ficaria h2 = degrauFA(h @ w2.T)
+onde w2 são os pesos da segunda camada. A saída h da primeira camada se torna a entrada para a segunda camada, e o processo se repete.'''
